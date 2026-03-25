@@ -4,6 +4,11 @@ using UnityEngine;
 
 namespace PuzzleBlock.Gameplay
 {
+    /// <summary>
+    /// Manages core gameplay logic, including puzzle setup, event binding, and UI updates.
+    /// </summary>
+    /// <remarks>Coordinates interactions between puzzle handling and user interface components during
+    /// gameplay.</remarks>
     public class GameplayManager : MonoBehaviour
     {
         [Header("Settings")]
@@ -19,10 +24,21 @@ namespace PuzzleBlock.Gameplay
 
         private void Start()
         {
-            puzzleHandler.OnScoreAndMovementsUpdated += uiController.UpdateScoreAndMovements;
-            puzzleHandler.OnGameFinished += uiController.ShowGameOver;
+            BindEvents();
 
-            puzzleHandler.Setup(puzzleBlockSettings.PlayerMovements);
+            puzzleHandler.Setup(puzzleBlockSettings.PlayerMovements, puzzleBlockSettings.DelayAfterMovement);
+        }
+
+        private void BindEvents()
+        {
+            puzzleHandler.OnScoreAndMovementsUpdated += UpdateScoreAndMovements;
+            puzzleHandler.OnGameFinished += uiController.ShowGameOver;
+        }
+
+        private void UpdateScoreAndMovements(int score, int movements)
+        {
+            uiController.UpdateScore(score);
+            uiController.UpdateMovements(movements);
         }
     }
 }
