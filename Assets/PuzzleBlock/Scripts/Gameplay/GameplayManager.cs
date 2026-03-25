@@ -19,8 +19,6 @@ namespace PuzzleBlock.Gameplay
 
         private void Start()
         {
-            uiController.OnMakeMovementButtonPressed += puzzleHandler.MakeMovement;
-
             puzzleHandler.OnScoreAndMovementsUpdated += uiController.UpdateScoreAndMovements;
             puzzleHandler.OnGameFinished += uiController.ShowGameOver;
 

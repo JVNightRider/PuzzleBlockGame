@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 6380736}
   - component: {fileID: 6380735}
   - component: {fileID: 6380734}
+  - component: {fileID: 6380737}
   m_Layer: 5
   m_Name: Block_5
   m_TagString: Untagged
@@ -239,6 +240,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6380732}
   m_CullTransparentMesh: 1
+--- !u!114 &6380737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6380732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8b80e1c51f98e542bbca0ff223c8c3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleBlock.Gameplay.GameBrick
 --- !u!1 &103821707
 GameObject:
   m_ObjectHideFlags: 0
@@ -341,6 +354,7 @@ GameObject:
   - component: {fileID: 118312034}
   - component: {fileID: 118312033}
   - component: {fileID: 118312032}
+  - component: {fileID: 118312035}
   m_Layer: 5
   m_Name: Block_27
   m_TagString: Untagged
@@ -449,6 +463,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 118312030}
   m_CullTransparentMesh: 1
+--- !u!114 &118312035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 118312030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8b80e1c51f98e542bbca0ff223c8c3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleBlock.Gameplay.GameBrick
 --- !u!1 &118761105
 GameObject:
   m_ObjectHideFlags: 0
@@ -461,6 +487,7 @@ GameObject:
   - component: {fileID: 118761109}
   - component: {fileID: 118761108}
   - component: {fileID: 118761107}
+  - component: {fileID: 118761110}
   m_Layer: 5
   m_Name: Block_28
   m_TagString: Untagged
@@ -569,6 +596,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 118761105}
   m_CullTransparentMesh: 1
+--- !u!114 &118761110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 118761105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8b80e1c51f98e542bbca0ff223c8c3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleBlock.Gameplay.GameBrick
 --- !u!1 &168162771
 GameObject:
   m_ObjectHideFlags: 0
@@ -749,6 +788,7 @@ GameObject:
   - component: {fileID: 253079394}
   - component: {fileID: 253079393}
   - component: {fileID: 253079392}
+  - component: {fileID: 253079395}
   m_Layer: 5
   m_Name: Block_20
   m_TagString: Untagged
@@ -857,6 +897,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 253079390}
   m_CullTransparentMesh: 1
+--- !u!114 &253079395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 253079390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8b80e1c51f98e542bbca0ff223c8c3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleBlock.Gameplay.GameBrick
 --- !u!1 &340950212
 GameObject:
   m_ObjectHideFlags: 0
@@ -869,6 +921,7 @@ GameObject:
   - component: {fileID: 340950216}
   - component: {fileID: 340950215}
   - component: {fileID: 340950214}
+  - component: {fileID: 340950217}
   m_Layer: 5
   m_Name: Block_26
   m_TagString: Untagged
@@ -977,6 +1030,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 340950212}
   m_CullTransparentMesh: 1
+--- !u!114 &340950217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 340950212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8b80e1c51f98e542bbca0ff223c8c3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleBlock.Gameplay.GameBrick
 --- !u!1 &355242564
 GameObject:
   m_ObjectHideFlags: 0
@@ -989,6 +1054,7 @@ GameObject:
   - component: {fileID: 355242568}
   - component: {fileID: 355242567}
   - component: {fileID: 355242566}
+  - component: {fileID: 355242569}
   m_Layer: 5
   m_Name: Block_9
   m_TagString: Untagged
@@ -1097,6 +1163,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 355242564}
   m_CullTransparentMesh: 1
+--- !u!114 &355242569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 355242564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8b80e1c51f98e542bbca0ff223c8c3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleBlock.Gameplay.GameBrick
 --- !u!1 &403140845
 GameObject:
   m_ObjectHideFlags: 0
@@ -1109,6 +1187,7 @@ GameObject:
   - component: {fileID: 403140849}
   - component: {fileID: 403140848}
   - component: {fileID: 403140847}
+  - component: {fileID: 403140850}
   m_Layer: 5
   m_Name: Block_15
   m_TagString: Untagged
@@ -1217,6 +1296,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 403140845}
   m_CullTransparentMesh: 1
+--- !u!114 &403140850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 403140845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8b80e1c51f98e542bbca0ff223c8c3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleBlock.Gameplay.GameBrick
 --- !u!1 &419371214
 GameObject:
   m_ObjectHideFlags: 0
@@ -1229,6 +1320,7 @@ GameObject:
   - component: {fileID: 419371218}
   - component: {fileID: 419371217}
   - component: {fileID: 419371216}
+  - component: {fileID: 419371219}
   m_Layer: 5
   m_Name: Block_13
   m_TagString: Untagged
@@ -1337,6 +1429,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 419371214}
   m_CullTransparentMesh: 1
+--- !u!114 &419371219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 419371214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8b80e1c51f98e542bbca0ff223c8c3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleBlock.Gameplay.GameBrick
 --- !u!1 &447155028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1349,6 +1453,7 @@ GameObject:
   - component: {fileID: 447155032}
   - component: {fileID: 447155031}
   - component: {fileID: 447155030}
+  - component: {fileID: 447155033}
   m_Layer: 5
   m_Name: Block_25
   m_TagString: Untagged
@@ -1457,6 +1562,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 447155028}
   m_CullTransparentMesh: 1
+--- !u!114 &447155033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 447155028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8b80e1c51f98e542bbca0ff223c8c3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleBlock.Gameplay.GameBrick
 --- !u!1 &497709262
 GameObject:
   m_ObjectHideFlags: 0
@@ -1469,6 +1586,7 @@ GameObject:
   - component: {fileID: 497709266}
   - component: {fileID: 497709265}
   - component: {fileID: 497709264}
+  - component: {fileID: 497709267}
   m_Layer: 5
   m_Name: Block_12
   m_TagString: Untagged
@@ -1577,6 +1695,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 497709262}
   m_CullTransparentMesh: 1
+--- !u!114 &497709267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 497709262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8b80e1c51f98e542bbca0ff223c8c3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleBlock.Gameplay.GameBrick
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1810,6 +1940,7 @@ GameObject:
   - component: {fileID: 711653719}
   - component: {fileID: 711653718}
   - component: {fileID: 711653717}
+  - component: {fileID: 711653720}
   m_Layer: 5
   m_Name: Block_7
   m_TagString: Untagged
@@ -1918,6 +2049,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 711653715}
   m_CullTransparentMesh: 1
+--- !u!114 &711653720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 711653715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8b80e1c51f98e542bbca0ff223c8c3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleBlock.Gameplay.GameBrick
 --- !u!1 &713967806
 GameObject:
   m_ObjectHideFlags: 0
@@ -2144,6 +2287,7 @@ GameObject:
   - component: {fileID: 786474831}
   - component: {fileID: 786474830}
   - component: {fileID: 786474829}
+  - component: {fileID: 786474832}
   m_Layer: 5
   m_Name: Block_4
   m_TagString: Untagged
@@ -2252,6 +2396,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 786474827}
   m_CullTransparentMesh: 1
+--- !u!114 &786474832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 786474827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8b80e1c51f98e542bbca0ff223c8c3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleBlock.Gameplay.GameBrick
 --- !u!1 &947262220
 GameObject:
   m_ObjectHideFlags: 0
@@ -2402,6 +2558,7 @@ GameObject:
   - component: {fileID: 1008830019}
   - component: {fileID: 1008830018}
   - component: {fileID: 1008830017}
+  - component: {fileID: 1008830020}
   m_Layer: 5
   m_Name: Block_24
   m_TagString: Untagged
@@ -2510,6 +2667,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1008830015}
   m_CullTransparentMesh: 1
+--- !u!114 &1008830020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008830015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8b80e1c51f98e542bbca0ff223c8c3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleBlock.Gameplay.GameBrick
 --- !u!1 &1049226126
 GameObject:
   m_ObjectHideFlags: 0
@@ -2522,6 +2691,7 @@ GameObject:
   - component: {fileID: 1049226130}
   - component: {fileID: 1049226129}
   - component: {fileID: 1049226128}
+  - component: {fileID: 1049226131}
   m_Layer: 5
   m_Name: Block_11
   m_TagString: Untagged
@@ -2630,143 +2800,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1049226126}
   m_CullTransparentMesh: 1
---- !u!1 &1105878031
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1105878032}
-  - component: {fileID: 1105878034}
-  - component: {fileID: 1105878033}
-  m_Layer: 5
-  m_Name: Replay Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1105878032
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1105878031}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1666396795}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1105878033
+--- !u!114 &1049226131
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1105878031}
+  m_GameObject: {fileID: 1049226126}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Script: {fileID: 11500000, guid: b8b80e1c51f98e542bbca0ff223c8c3c, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: Make Move
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 2c7f5521225ca6d449e68f92b12f836f, type: 2}
-  m_sharedMaterial: {fileID: -9021913830927716134, guid: 2c7f5521225ca6d449e68f92b12f836f, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4278209374
-  m_fontColor: {r: 0.36862746, g: 0.29411766, b: 0, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 21
-  m_fontSizeBase: 21
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_characterHorizontalScale: 1
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_TextWrappingMode: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 0
-  m_ActiveFontFeatures: 6e72656b
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_EmojiFallbackSupport: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &1105878034
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1105878031}
-  m_CullTransparentMesh: 1
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleBlock.Gameplay.GameBrick
 --- !u!1 &1146667236
 GameObject:
   m_ObjectHideFlags: 0
@@ -2812,6 +2857,7 @@ GameObject:
   - component: {fileID: 1156553748}
   - component: {fileID: 1156553747}
   - component: {fileID: 1156553746}
+  - component: {fileID: 1156553749}
   m_Layer: 5
   m_Name: Block_21
   m_TagString: Untagged
@@ -2920,6 +2966,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1156553744}
   m_CullTransparentMesh: 1
+--- !u!114 &1156553749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1156553744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8b80e1c51f98e542bbca0ff223c8c3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleBlock.Gameplay.GameBrick
 --- !u!1 &1233451939
 GameObject:
   m_ObjectHideFlags: 0
@@ -2975,12 +3033,12 @@ RectTransform:
   - {fileID: 1156553745}
   - {fileID: 1951395033}
   - {fileID: 1452318966}
-  - {fileID: 1369653850}
   - {fileID: 1008830016}
   - {fileID: 447155029}
   - {fileID: 340950213}
   - {fileID: 118312031}
   - {fileID: 118761106}
+  - {fileID: 1369653850}
   m_Father: {fileID: 1416325020}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -3141,6 +3199,7 @@ GameObject:
   - component: {fileID: 1300831016}
   - component: {fileID: 1300831015}
   - component: {fileID: 1300831014}
+  - component: {fileID: 1300831017}
   m_Layer: 5
   m_Name: Block_16
   m_TagString: Untagged
@@ -3249,6 +3308,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1300831012}
   m_CullTransparentMesh: 1
+--- !u!114 &1300831017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1300831012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8b80e1c51f98e542bbca0ff223c8c3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleBlock.Gameplay.GameBrick
 --- !u!1 &1357054619
 GameObject:
   m_ObjectHideFlags: 0
@@ -3261,6 +3332,7 @@ GameObject:
   - component: {fileID: 1357054623}
   - component: {fileID: 1357054622}
   - component: {fileID: 1357054621}
+  - component: {fileID: 1357054624}
   m_Layer: 5
   m_Name: Block_2
   m_TagString: Untagged
@@ -3369,6 +3441,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1357054619}
   m_CullTransparentMesh: 1
+--- !u!114 &1357054624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1357054619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8b80e1c51f98e542bbca0ff223c8c3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleBlock.Gameplay.GameBrick
 --- !u!1 &1369653849
 GameObject:
   m_ObjectHideFlags: 0
@@ -3381,6 +3465,7 @@ GameObject:
   - component: {fileID: 1369653853}
   - component: {fileID: 1369653852}
   - component: {fileID: 1369653851}
+  - component: {fileID: 1369653854}
   m_Layer: 5
   m_Name: Block_29
   m_TagString: Untagged
@@ -3489,6 +3574,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1369653849}
   m_CullTransparentMesh: 1
+--- !u!114 &1369653854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1369653849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8b80e1c51f98e542bbca0ff223c8c3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleBlock.Gameplay.GameBrick
 --- !u!1 &1396536229
 GameObject:
   m_ObjectHideFlags: 0
@@ -3501,6 +3598,7 @@ GameObject:
   - component: {fileID: 1396536233}
   - component: {fileID: 1396536232}
   - component: {fileID: 1396536231}
+  - component: {fileID: 1396536234}
   m_Layer: 5
   m_Name: Block_3
   m_TagString: Untagged
@@ -3609,6 +3707,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1396536229}
   m_CullTransparentMesh: 1
+--- !u!114 &1396536234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1396536229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8b80e1c51f98e542bbca0ff223c8c3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleBlock.Gameplay.GameBrick
 --- !u!1 &1416325019
 GameObject:
   m_ObjectHideFlags: 0
@@ -3641,7 +3751,6 @@ RectTransform:
   - {fileID: 1815812147}
   - {fileID: 947262221}
   - {fileID: 1233451940}
-  - {fileID: 1666396795}
   m_Father: {fileID: 1959188697}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -3661,6 +3770,43 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c72158c5adcc9294992f803d2a680c49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PuzzleBlock.Gameplay.PuzzleHandler
+  bricks:
+  - {fileID: 1897668227}
+  - {fileID: 1517105292}
+  - {fileID: 1357054624}
+  - {fileID: 1396536234}
+  - {fileID: 786474832}
+  - {fileID: 6380737}
+  - {fileID: 1898860148}
+  - {fileID: 711653720}
+  - {fileID: 1531882548}
+  - {fileID: 355242569}
+  - {fileID: 1979043169}
+  - {fileID: 1049226131}
+  - {fileID: 497709267}
+  - {fileID: 419371219}
+  - {fileID: 1455664778}
+  - {fileID: 403140850}
+  - {fileID: 1300831017}
+  - {fileID: 1866741458}
+  - {fileID: 1467170612}
+  - {fileID: 1557213510}
+  - {fileID: 253079395}
+  - {fileID: 1156553749}
+  - {fileID: 1951395037}
+  - {fileID: 1452318970}
+  - {fileID: 1008830020}
+  - {fileID: 447155033}
+  - {fileID: 340950217}
+  - {fileID: 118312035}
+  - {fileID: 118761110}
+  - {fileID: 1369653854}
+  brickImages:
+  - {fileID: 21300000, guid: 70e418c0df0955c4eb49f4854c1f482d, type: 3}
+  - {fileID: 21300000, guid: 7c1bce14f6c5dcb4cba41225fa53bb52, type: 3}
+  - {fileID: 21300000, guid: 30a10a344a305d64fbe8935d0049ca25, type: 3}
+  - {fileID: 21300000, guid: e66ef32f77603fa44a49583c55e98df4, type: 3}
+  - {fileID: 21300000, guid: 098b56de73eb7a94f85805ec7faf9aa0, type: 3}
 --- !u!1 &1452318965
 GameObject:
   m_ObjectHideFlags: 0
@@ -3673,6 +3819,7 @@ GameObject:
   - component: {fileID: 1452318969}
   - component: {fileID: 1452318968}
   - component: {fileID: 1452318967}
+  - component: {fileID: 1452318970}
   m_Layer: 5
   m_Name: Block_23
   m_TagString: Untagged
@@ -3781,6 +3928,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1452318965}
   m_CullTransparentMesh: 1
+--- !u!114 &1452318970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1452318965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8b80e1c51f98e542bbca0ff223c8c3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleBlock.Gameplay.GameBrick
 --- !u!1 &1455664773
 GameObject:
   m_ObjectHideFlags: 0
@@ -3793,6 +3952,7 @@ GameObject:
   - component: {fileID: 1455664777}
   - component: {fileID: 1455664776}
   - component: {fileID: 1455664775}
+  - component: {fileID: 1455664778}
   m_Layer: 5
   m_Name: Block_14
   m_TagString: Untagged
@@ -3901,6 +4061,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1455664773}
   m_CullTransparentMesh: 1
+--- !u!114 &1455664778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1455664773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8b80e1c51f98e542bbca0ff223c8c3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleBlock.Gameplay.GameBrick
 --- !u!1 &1467170607
 GameObject:
   m_ObjectHideFlags: 0
@@ -3913,6 +4085,7 @@ GameObject:
   - component: {fileID: 1467170611}
   - component: {fileID: 1467170610}
   - component: {fileID: 1467170609}
+  - component: {fileID: 1467170612}
   m_Layer: 5
   m_Name: Block_18
   m_TagString: Untagged
@@ -4021,6 +4194,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1467170607}
   m_CullTransparentMesh: 1
+--- !u!114 &1467170612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1467170607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8b80e1c51f98e542bbca0ff223c8c3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleBlock.Gameplay.GameBrick
 --- !u!1 &1517105287
 GameObject:
   m_ObjectHideFlags: 0
@@ -4033,6 +4218,7 @@ GameObject:
   - component: {fileID: 1517105291}
   - component: {fileID: 1517105290}
   - component: {fileID: 1517105289}
+  - component: {fileID: 1517105292}
   m_Layer: 5
   m_Name: Block_1
   m_TagString: Untagged
@@ -4141,6 +4327,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1517105287}
   m_CullTransparentMesh: 1
+--- !u!114 &1517105292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1517105287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8b80e1c51f98e542bbca0ff223c8c3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleBlock.Gameplay.GameBrick
 --- !u!1 &1531882543
 GameObject:
   m_ObjectHideFlags: 0
@@ -4153,6 +4351,7 @@ GameObject:
   - component: {fileID: 1531882547}
   - component: {fileID: 1531882546}
   - component: {fileID: 1531882545}
+  - component: {fileID: 1531882548}
   m_Layer: 5
   m_Name: Block_8
   m_TagString: Untagged
@@ -4261,6 +4460,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1531882543}
   m_CullTransparentMesh: 1
+--- !u!114 &1531882548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1531882543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8b80e1c51f98e542bbca0ff223c8c3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleBlock.Gameplay.GameBrick
 --- !u!1 &1557213505
 GameObject:
   m_ObjectHideFlags: 0
@@ -4273,6 +4484,7 @@ GameObject:
   - component: {fileID: 1557213509}
   - component: {fileID: 1557213508}
   - component: {fileID: 1557213507}
+  - component: {fileID: 1557213510}
   m_Layer: 5
   m_Name: Block_19
   m_TagString: Untagged
@@ -4381,6 +4593,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1557213505}
   m_CullTransparentMesh: 1
+--- !u!114 &1557213510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1557213505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8b80e1c51f98e542bbca0ff223c8c3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleBlock.Gameplay.GameBrick
 --- !u!1 &1563288782
 GameObject:
   m_ObjectHideFlags: 0
@@ -4518,127 +4742,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1563288782}
   m_CullTransparentMesh: 1
---- !u!1 &1666396791
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1666396795}
-  - component: {fileID: 1666396794}
-  - component: {fileID: 1666396793}
-  - component: {fileID: 1666396792}
-  m_Layer: 5
-  m_Name: Make Movement Button
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1666396792
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1666396791}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 1666396793}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &1666396793
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1666396791}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a68c793d08ef2724fbe23c7509c76464, type: 3}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1666396794
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1666396791}
-  m_CullTransparentMesh: 1
---- !u!224 &1666396795
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1666396791}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1105878032}
-  m_Father: {fileID: 1416325020}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 30, y: 20}
-  m_SizeDelta: {x: 210, y: 60}
-  m_Pivot: {x: 0, y: 0}
 --- !u!1 &1797351375
 GameObject:
   m_ObjectHideFlags: 0
@@ -5063,6 +5166,7 @@ GameObject:
   - component: {fileID: 1866741457}
   - component: {fileID: 1866741456}
   - component: {fileID: 1866741455}
+  - component: {fileID: 1866741458}
   m_Layer: 5
   m_Name: Block_17
   m_TagString: Untagged
@@ -5171,6 +5275,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1866741453}
   m_CullTransparentMesh: 1
+--- !u!114 &1866741458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866741453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8b80e1c51f98e542bbca0ff223c8c3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleBlock.Gameplay.GameBrick
 --- !u!1 &1897668222
 GameObject:
   m_ObjectHideFlags: 0
@@ -5183,6 +5299,7 @@ GameObject:
   - component: {fileID: 1897668226}
   - component: {fileID: 1897668225}
   - component: {fileID: 1897668224}
+  - component: {fileID: 1897668227}
   m_Layer: 5
   m_Name: Block
   m_TagString: Untagged
@@ -5291,6 +5408,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1897668222}
   m_CullTransparentMesh: 1
+--- !u!114 &1897668227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1897668222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8b80e1c51f98e542bbca0ff223c8c3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleBlock.Gameplay.GameBrick
 --- !u!1 &1898860143
 GameObject:
   m_ObjectHideFlags: 0
@@ -5303,6 +5432,7 @@ GameObject:
   - component: {fileID: 1898860147}
   - component: {fileID: 1898860146}
   - component: {fileID: 1898860145}
+  - component: {fileID: 1898860148}
   m_Layer: 5
   m_Name: Block_6
   m_TagString: Untagged
@@ -5411,6 +5541,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1898860143}
   m_CullTransparentMesh: 1
+--- !u!114 &1898860148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1898860143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8b80e1c51f98e542bbca0ff223c8c3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleBlock.Gameplay.GameBrick
 --- !u!1 &1951395032
 GameObject:
   m_ObjectHideFlags: 0
@@ -5423,6 +5565,7 @@ GameObject:
   - component: {fileID: 1951395036}
   - component: {fileID: 1951395035}
   - component: {fileID: 1951395034}
+  - component: {fileID: 1951395037}
   m_Layer: 5
   m_Name: Block_22
   m_TagString: Untagged
@@ -5531,6 +5674,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1951395032}
   m_CullTransparentMesh: 1
+--- !u!114 &1951395037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1951395032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8b80e1c51f98e542bbca0ff223c8c3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleBlock.Gameplay.GameBrick
 --- !u!1 &1959188693
 GameObject:
   m_ObjectHideFlags: 0
@@ -5651,7 +5806,6 @@ MonoBehaviour:
   movesText: {fileID: 1798032122}
   scoreText: {fileID: 947262222}
   gameOverPopup: {fileID: 103821711}
-  makeMovementButton: {fileID: 1666396792}
 --- !u!1 &1979043164
 GameObject:
   m_ObjectHideFlags: 0
@@ -5664,6 +5818,7 @@ GameObject:
   - component: {fileID: 1979043168}
   - component: {fileID: 1979043167}
   - component: {fileID: 1979043166}
+  - component: {fileID: 1979043169}
   m_Layer: 5
   m_Name: Block_10
   m_TagString: Untagged
@@ -5772,6 +5927,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1979043164}
   m_CullTransparentMesh: 1
+--- !u!114 &1979043169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1979043164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8b80e1c51f98e542bbca0ff223c8c3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleBlock.Gameplay.GameBrick
 --- !u!1 &2069176105
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,14 +1,10 @@
-using System;
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 namespace PuzzleBlock.UI
 {
     public class UIController : MonoBehaviour
     {
-        public event Action OnMakeMovementButtonPressed;
-
         [Header("UI")]
         [SerializeField]
         private TMP_Text movesText;
@@ -20,12 +16,8 @@ namespace PuzzleBlock.UI
         [SerializeField]
         private GameOverPopup gameOverPopup;
 
-        [SerializeField, Header("Debug")]
-        private Button makeMovementButton;
-
         private void Start()
         {
-            makeMovementButton.onClick.AddListener(MakeMovementButtonPressed);
         }
 
         public void UpdateScoreAndMovements(int score, int movements)
@@ -37,11 +29,6 @@ namespace PuzzleBlock.UI
         public void ShowGameOver()
         {
             gameOverPopup.Show();
-        }
-
-        private void MakeMovementButtonPressed()
-        {
-            OnMakeMovementButtonPressed?.Invoke();
         }
     }
 }
