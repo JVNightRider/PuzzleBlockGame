@@ -11,14 +11,16 @@ Match-style puzzle game made in Unity. The goal is to remove contiguous groups o
 
 1. Clone the repository:
 
-   git clone https://github.com/JVNightRider/PuzzleBlockGame/tree/Development
+   git clone https://github.com/JVNightRider/PuzzleBlockGame
 
-2. Open Unity Hub and select `Add` -> the project folder.
-3. Open the Main Scene (or create a new scene and set up the objects below):
+Note: Set "Development" as the current branch, you can use `git checkout Development`
+   
+3. Open Unity Hub and select `Add` -> the project folder.
+4. Open the Main Scene (or create a new scene and set up the objects below):
    - `GameplayManager` — assign `PuzzleBlockSettings`, `UIController`, and `PuzzleHandler`.
    - `PuzzleHandler` — assign the `EventSystem`, the list of `GameBrick` instances and `brickImages`.
    - `UIController` — assign `movesText`, `scoreText` and `GameOverPopup`.
-4. Press Play to run the game.
+5. Press Play to run the game.
 
 ## Controls & gameplay
 
